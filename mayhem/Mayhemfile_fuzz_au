@@ -1,0 +1,11 @@
+project: savantenvs/sdl_mixer
+target: fuzz-au
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-au/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_au
+    libfuzzer: true
+    max_length: 65536
+    timeout: 10

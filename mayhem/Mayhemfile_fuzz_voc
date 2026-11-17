@@ -1,0 +1,11 @@
+project: savantenvs/sdl_mixer
+target: fuzz-voc
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-voc/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_voc
+    libfuzzer: true
+    max_length: 65536
+    timeout: 10

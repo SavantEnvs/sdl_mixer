@@ -1,0 +1,11 @@
+project: savantenvs/sdl_mixer
+target: fuzz-mpg123
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-mpg123/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_mpg123
+    libfuzzer: true
+    max_length: 65536
+    timeout: 10

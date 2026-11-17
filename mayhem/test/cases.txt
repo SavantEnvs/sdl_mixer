@@ -1,0 +1,17 @@
+WAV examples/splash.wav
+WAV examples/sword.wav
+WAV mayhem/sdl-mixer-fuzzer/testsuite/StarWars3.wav
+DRMP3 examples/music.mp3
+STBVORBIS mayhem/sdl-mixer-fuzzer/testsuite/ogg_440hz_sine.ogg
+DRFLAC mayhem/sdl-mixer-fuzzer/testsuite/flac_r22k_1c_24b.flac
+AU mayhem/sdl-mixer-fuzzer/testsuite/pcm_mulaw.au
+VOC mayhem/fixtures/tone.voc
+AIFF mayhem/fixtures/tone.aiff
+TIMIDITY mayhem/fixtures/song.mid
+FLAC mayhem/sdl-mixer-fuzzer/testsuite/flac_r22k_1c_24b.flac
+VORBIS mayhem/sdl-mixer-fuzzer/testsuite/ogg_440hz_sine.ogg
+OPUS mayhem/fuzz-opus/testsuite/tone.opus
+MPG123 examples/music.mp3
+XMP mayhem/fuzz-xmp/testsuite/tone.mod
+GME mayhem/fuzz-gme/testsuite/tone.nsf
+WAVPACK mayhem/fuzz-wavpack/testsuite/tone.wv

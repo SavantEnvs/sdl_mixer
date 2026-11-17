@@ -1,0 +1,11 @@
+project: savantenvs/sdl_mixer
+target: fuzz-timidity-midi
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-timidity-midi/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_timidity_midi
+    libfuzzer: true
+    max_length: 16384
+    timeout: 10
